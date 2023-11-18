@@ -55,7 +55,7 @@
             <button id="addtast" class="h-15 w-30 rounded-xl p-3 text-lg font-semibold text-white transition-colors duration-300 bg-blue-500 shadow hover:bg-blue-600 focus:outline-none focus:ring-blue-200 focus:ring-4">Add Task</button>
         </div>        
     </body>
-    <script src="firebase-config.js" type="module"></script>
+    <script src="firebase-config-file.js" type="module"></script>
     <script type="module">
 /*++++++++++++++++++++++++++++++ Firebase ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
@@ -67,7 +67,7 @@
             onAuthStateChanged
          } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
 
-        import app from './firebase-config.js';
+        import app from './firebase-config-file.js';
 
         import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, onSnapshot, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js";
 
